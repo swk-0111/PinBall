@@ -13,6 +13,10 @@ public class FripperController : MonoBehaviour {
     //弾いた時の傾き
     private float flickAngle = -20;
 
+    //左右のタップの状態
+    // private bool rightFlag = false;
+    // private bool leftFlag = false; 
+
 
 	// Use this for initialization
 	void Start () {

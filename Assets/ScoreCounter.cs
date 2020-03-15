@@ -18,8 +18,6 @@ public class ScoreCounter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        this.scoreText.GetComponent<Text>().text = score.ToString();
-
     }
 
     //衝突時に呼ばれる関数
@@ -37,6 +35,8 @@ public class ScoreCounter : MonoBehaviour {
         {
             score += 30;
         }
+
+        this.scoreText.GetComponent<Text>().text = score.ToString();
 
     }
 }
